@@ -21,7 +21,7 @@ end
   end                                                                                                                                           
 end                                                                                                                                             
 
-%w(sqlite sqlite-devel).each do |pkg|
+%w(libsqlite3-dev).each do |pkg|
     package pkg do
         action :install
     end
