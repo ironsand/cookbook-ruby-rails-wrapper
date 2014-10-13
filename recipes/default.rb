@@ -20,3 +20,9 @@ end
     ruby_version "2.1.3"                                                                                                                        
   end                                                                                                                                           
 end                                                                                                                                             
+
+%w(openssl openssl-devel sqlite sqlite-devel).each do |pkg|
+    package pkg do
+        action :install
+    end
+end
