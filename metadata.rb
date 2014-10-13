@@ -1,4 +1,4 @@
-name             'cookbook-ruby-rails-wrapper'
+name             'ruby-rails-wrapper'
 maintainer       'YOUR_COMPANY_NAME'
 maintainer_email 'YOUR_EMAIL'
 license          'All rights reserved'
