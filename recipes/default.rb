@@ -21,7 +21,7 @@ end
   end                                                                                                                                           
 end                                                                                                                                             
 
-%w(openssl openssl-devel sqlite sqlite-devel).each do |pkg|
+%w(sqlite sqlite-devel).each do |pkg|
     package pkg do
         action :install
     end
